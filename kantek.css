@@ -422,6 +422,14 @@ section {
             cursor: pointer;
             font-weight: 500;
             transition: background 0.3s ease;
+            
+  /* Tambahan anti-overflow */
+    max-width: 100vw;
+    box-sizing: border-box;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+
         }
         
         .reset-filters:hover {
