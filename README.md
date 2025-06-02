@@ -37,8 +37,8 @@ Cari makan murah, enak, dan bisa bikin kuat demo? Di sini tempatnya. Ada ratusan
 
 ## 🤳 Follow dan Cek Kami!
 
-- **IG**: [@kantinteknik_ftui](https://instagram.com/kantinteknik_ftui)
-- **Website**: [kantinteknik.ui.ac.id](https://kantinteknik.ui.ac.id)
+- **IG**: [@kantinteknik_ftui](https://www.instagram.com/fakultasteknik.ui)
+- **Website**: [kantinteknik.ui.ac.id](https://kantek-ftui.vercel.app/))
 - **Lokasi**: Fakultas Teknik Universitas Indonesia, Depok
 
 ---
