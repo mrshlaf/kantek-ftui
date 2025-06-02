@@ -611,7 +611,8 @@ section {
     transition: all var(--transition-normal);
     opacity: 0;
     transform: translateY(20px);
-    animation: fadeInUp 0.8s ease forwards;
+    animation: fadeInUp 0.3s ease forwards;
+    margin-bottom: 20px;
 }
 
 .booth:hover {
@@ -621,7 +622,7 @@ section {
 
 .booth-img {
     width: 100%;
-    height: 200px;
+    height: 300px;
     object-fit: cover;
 }
 
