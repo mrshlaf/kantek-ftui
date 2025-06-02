@@ -519,6 +519,27 @@ document.addEventListener('DOMContentLoaded', function() {
     const resetFiltersBtn = document.getElementById('reset-filters');
     const resultsInfo = document.getElementById('results-info');
     const resultsCount = document.getElementById('results-count');
+    const navbar = document.querySelector('.navbar');
+    const hamburger = document.querySelector('.hamburger');
+    const navMenu = document.querySelector('.nav-menu');
+    const navLinks = document.querySelectorAll('.nav-link');
+    const themeToggleBtn = document.getElementById('theme-toggle-btn');
+    const scrollTopBtn = document.getElementById('scroll-top');
+
+    // ==================== NAVBAR FUNCTIONS ====================
+    // Toggle mobile menu
+    hamburger.addEventListener('click', () => {
+        hamburger.classList.toggle('active');
+        navMenu.classList.toggle('active');
+    });
+
+    // Close mobile menu when clicking on a nav link
+    navLinks.forEach(link => {
+        link.addEventListener('click', () => {
+            hamburger.classList.remove('active');
+            navMenu.classList.remove('active');
+        });
+    });
 
     let currentFilters = {
         search: '',
